@@ -1,0 +1,4 @@
+webserver:
+  build:
+    image: webserver-image
+    dockerfile: Dockerfile
