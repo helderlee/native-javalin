@@ -1,0 +1,4 @@
+FROM gradle as build-jar-stage
+RUN mkdir /home/gradle/work
+WORKDIR /home/gradle/work
+ADD --chown=gradle . .
