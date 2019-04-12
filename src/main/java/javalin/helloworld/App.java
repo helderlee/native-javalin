@@ -10,7 +10,7 @@ public class App {
 
     public static void main(String[] args) {
         Response response = new Response();
-        response.setMessage("Hello World!");
+        response.setMessage("Hello World, Lee!");
         Javalin app = Javalin.create().start(7000);
         app.get("/", ctx -> ctx.json(response));
     }
